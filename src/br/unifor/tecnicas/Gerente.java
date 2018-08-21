@@ -19,4 +19,5 @@ public class Gerente extends Funcionario {
             setSalario(getSalario().multiply(percentual.divide(new BigDecimal(100)).add(new BigDecimal(1))));
         }
     }
+
 }
